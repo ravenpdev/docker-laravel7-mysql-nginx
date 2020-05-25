@@ -50,8 +50,8 @@ DB_CONNECTION=mysql
 DB_HOST=db
 DB_PORT=3306
 DB_DATABASE=laravel
-DB_USERNAME=laravel
-DB_PASSWORD=laravel
+DB_USERNAME=laraveluser
+DB_PASSWORD=your_laravel_db_password
 ```
 
 * Next, set the application key for the Laravel application with the php artisan key:generate command. This command will generate a key and copy it to your .env file, ensuring that your user sessions and encrypted data remain secure:
